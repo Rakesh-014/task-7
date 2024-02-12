@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>doctors signin page</title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h1>
+                 <font color="red" > Apollo Hospitals</font>
+                </h1>
+            </center>
+        </header>
+        <p>
+            <center>
+            <a href="./home.html" target="_blank">About apollo</a> &nbsp;&nbsp;|&nbsp;
+            <a href="./Apollo branches.html" target="_blank">Branches</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./Apollo services.html" target="_blank">  services</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./Apollo contact.html" > contact</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./our doctors.html" target="_blank">Our Doctors</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./our labs.html" target="_blank">Our Labs</a>&nbsp;&nbsp;|&nbsp;
+            <a href="#">Doctors signin</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./doctors login.html" target="_blank">Doctor login</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./patients reg.html" target="_blank">Patient signin</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./patients login.html" target="_blank">Patient login</a>&nbsp;&nbsp;|&nbsp;
+            <a href="./feedback.html" target="_blank">Feedbacks</a>
+        </center>
+        </p>
+        <hr>   
+        <br>
+        <form method="post" name="Doctors signin" action="server url">
+            <table  bgcolor="red" cellpadding="10" align="center">
+                <tr>
+                    <td><label for="id1">First Name:</label>
+                    <br>
+                    <input type="text" id="id1" name="First name" placeholder="First name"></td>
+                    <td><label for="id2">Last Name:</label>
+                    <br>
+                    <input type="text" id="id2" name="last name" placeholder="last name"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id3">Username:</label><br>
+                        <input type="text" id="id3" name="username">
+                    </td>
+                    <td><label for="id4">Password</label><br>
+                    <input type="password" name="Password" id="id4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id5">Email:</label><br>
+                        <input type="email" id="id5" name="Email" placeholder="abc123@gmail.com">
+                    </td>
+                    <td><label for="id6">Mobile No:</label><br>
+                    <input type="Number" name="Mobile no" id="id6">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id7">Specialist in:</label><br>
+                        <select name="specialist" id="id7">
+                            <option value="please select a specalist">please select a specalist</option>
+                            <option value="cardiologist">cardiologist</option>
+                            <option value="Dermatologist">Dermatologist</option>
+                            <option value="Ophthalmologist">Ophthalmologist</option>
+                            <option value="Endocrinologist">Endocrinologist</option>
+                            <option value="Gynecologist">Gynecologist</option>
+                            <option value="Neurologist">Neurologist</option>
+                        </select>
+                    </td>
+                    <td><label for="id8">Gender</label><br>
+                   <select name="gender" id="id9">
+                    <option value="select">select</option>
+                    <option value="male">male</option>
+                    <option value="female">Female</option>
+                    <option value="Others">Others</option>
+                   </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id10">State:</label><br>
+                        <select name="State" id="id11">
+                            <option value="please select a state">please select a state</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Andrapradesh">Andrapradesh</option>
+                            <option value="karnataka">karnataka</option>
+                            <option value="Tamil nadu">Tamil nadu</option>
+                            <option value="Maharastra">Maharastra</option>
+                            <option value="kerala">kerala</option>
+                        </select>
+                    </td>
+                    <td><label for="id12">city</label><br>
+                   <select name="city" id="id13">
+                    <option value="select">select</option>
+                    <option value="Hyderabad">Hydrabad</option>
+                    <option value="Amaravathi">Amaravathi</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="chennai">chennai</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="kochi">kochi</option>
+                   </select>
+                    </td>
+                </tr>
+<tr>
+    <td><label for="id14">Address</label><br>
+        <textarea name="Address" id="id14" cols="20" rows="5"></textarea>
+    </td>
+    <td>
+        <label for="id15">Code</label><br>
+        <input type="text" id="15" name="code"><br><br>
+        <input type="submit" value="Submit">
+    </td>
+</tr>
+            </table>
+        </form>
+    </body>
+</html>  
